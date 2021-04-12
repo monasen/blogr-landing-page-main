@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+header {
+  align-content: center;
+  margin: 0px 0px 100px 0px;
+  padding: 10px 40px 200px 80px;
+  border-radius: 0px 0px 0px 40px;
+  background-image: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+}
+img.bgpattern {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  justify-content: flex-end;
+  padding: 0px 10px 1000px 200px;
+}
+.product {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.company {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.connect {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.login {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.signup {
+  border-radius: 1cm;
+  color: hsl(355, 100%, 74%);
+  background-color: white;
+  padding: 10px 5px 10px 5px;
+  border: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body {
+  align-items: flex-start;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  padding: 50px 100px 50px 100px;
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+.p1 {
+  text-align: center;
+  color: white;
+}
+.butt1 {
+  display: unset;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1cm;
+  padding: 10px 5px 10px 5px;
+  color: brown;
+  background-color: white;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: transparent;
+}
+.butt2 {
+  display: unset;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1cm;
+  padding: 10px 5px 10px 5px;
+  color: white;
+  background-color: transparent;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-color: hsl(355, 100%, 74%);
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: hsl(208, 49%, 24%);
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 20px;
+  color: hsl(208, 49%, 24%);
+}
+.p2 {
+  padding: 20px 600px 50px 0px;
+  line-height: 25px;
+}
+.p3 {
+  padding: 20px 600px 200px 0px;
+  line-height: 25px;
+}
+
+img.editor {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  justify-content: flex-end;
+  padding: 0px 100px 90px 600px;
+}
+
+img.phones {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.banner {
+  border-radius: 0px 40px 0px 0px;
+  background-color: hsl(237, 17%, 21%);
+  color: white;
+  padding: 80px 20px 50px 50px;
+  margin-bottom: 200px;
+  background-image: url(/images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
+img.laptop {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  justify-content: flex-start;
+}
+.p4 {
+  padding: 20px 10px 50px 600px;
+  line-height: 25px;
+}
+.p5 {
+  padding: 20px 10px 50px 600px;
+  line-height: 25px;
+}
+.p6 {
+  padding: 20px 10px 50px 600px;
+  line-height: 25px;
+}
+.head2 {
+  text-align: left;
+  padding-left: 600px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 40px 0px 0px;
+  padding: 100px 100px 100px 100px;
+  background-color: hsl(240, 10%, 16%);
+  color: white;
+}
